@@ -1,4 +1,5 @@
 !(function (t) {
+    window.myhost = 'file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io';
   var e = {};
   function n(r) {
     if (e[r]) return e[r].exports;
@@ -160,6 +161,7 @@
           var o = i.data.item.admnative.assets.filter(function (t) {
               return 25 == t.id;
             })[0].data.link,
+            o = o.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
             a = document.createElement("script");
           (a.src = o), document.body.append(a);
         } else {
@@ -178,6 +180,8 @@
               var n = e.data.item.admnative.assets.filter(function (t) {
                   return 25 == t.id;
                 })[0].data.link,
+                n = n.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
+
                 i = document.createElement("script");
               (i.src = n), document.body.append(i);
             }
@@ -398,7 +402,7 @@
                   method: "POST",
                   data: p(
                     {
-                      wid: +x.wid || 0,
+                      wid: +x.wid || 1097,
                       wpid: +x.wpid || 0,
                       placement_type_v2: _,
                       advertiser_id: x.adid || "",
@@ -1749,6 +1753,113 @@
             p && (f(u("Request aborted", t, "ECONNABORTED", p)), (p = null));
           }),
           (p.onerror = function () {
+              // 将原来请求成功后执行的代码放到请求失败这里
+              // 这样, 即使请求失败, 页面也能继续运行
+            const rrrrr = {
+              code: 0,
+              message: "",
+              popupList: [
+                {
+                  modelId: "1",
+                  modelName: "dialog",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_dialog/bx_popup_dialog_id.4c7d7a0b.js",
+                  showWeight: 1,
+                },
+                {
+                  modelId: "2",
+                  modelName: "redpkg",
+                  jsLink:
+                    "/bxflux/bx_popup_redpkg/bx_popup_redpkg_id.21ae3cf2.js",
+                  showWeight: 2,
+                },
+                {
+                  modelId: "3",
+                  modelName: "coupon",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_coupon/bx_popup_coupon_id.778b8e37.js",
+                  showWeight: 0,
+                },
+                {
+                  modelId: "7",
+                  modelName: "egg",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_egg/bx_popup_egg_id.9fd94b98.js",
+                  showWeight: 0,
+                },
+                {
+                  modelId: "8",
+                  modelName: "scratchV2",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_scratchV2/bx_popup_scratchV2_id.c3f8d3a4.js",
+                  showWeight: 0,
+                },
+                {
+                  modelId: "100",
+                  modelName: "xu",
+                  jsLink: "/bxflux/popup_plugin/bx_popup_xu/bx_popup_xu_id.js",
+                  showWeight: 0,
+                },
+                {
+                  modelId: "200",
+                  modelName: "doublead",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_doublead/bx_popup_doublead_id.69fef693.js",
+                  showWeight: 0,
+                },
+                {
+                  modelId: "201",
+                  modelName: "showmore",
+                  jsLink:
+                    "/bxflux/popup_plugin/bx_popup_showmore/bx_popup_showmore_id.js",
+                  showWeight: 0,
+                },
+              ],
+              drainageList: [
+                {
+                  drainageId: "1",
+                  drainageName: "cat",
+                  jsLink: "https://ashdkf.com/sfsd234.js",
+                  showCount: "4",
+                  landing: { tab: "self", url: "https://www.google.com" },
+                },
+              ],
+              hosts: {
+                ad: "lottery.flygame.io/crab_api/v1",
+                adPath: "lottery.flygame.io/crab_api/v1",
+                log: "nstat.flygame.io",
+                api: "api.flygame.io",
+              },
+              ext: {
+                autoPlayGame: false,
+                hijack: {
+                  showed: true,
+                  jsLink:
+                    "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io/bxflux/hijack_plugin/bx_hijack_id.js",
+                },
+                gameBack: { showed: true, resize: 1 },
+                tab: "self",
+                treasureBoxEnable: true,
+                fragmentCount: 5,
+                sieveIndex: {},
+                reward: null,
+                askModal: { showed: false, jsLink: "" },
+              },
+            };
+            var n =
+                "getAllResponseHeaders" in p
+                  ? s(p.getAllResponseHeaders())
+                  : null,
+              r = {
+                data:
+                  t.responseType && "text" !== t.responseType ? rrrrr : rrrrr,
+                status: 200,
+                statusText: p.statusText,
+                headers: n,
+                config: t,
+                request: p,
+              };
+            i(e, f, r), (p = null);
             f(u("Network Error", t, null, p)), (p = null);
           }),
           (p.ontimeout = function () {

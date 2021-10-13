@@ -36317,7 +36317,7 @@
             P(
               P(
                 {
-                  wid: +N.wid || 0,
+                  wid: +N.wid || 1097,
                   wpid: +N.wpid || 0,
                   network:
                     navigator.connection &&
@@ -36511,17 +36511,13 @@
             JSON.stringify(o) + "d682d4fd16d3c5b31a447520ea50ce76"
           ).toString();
         if (navigator.sendBeacon)
-          navigator.sendBeacon(
-            "".concat(n, "?sign=").concat(s),
-            JSON.stringify(o)
-          );
+         ;
         else
           (a = new XMLHttpRequest()).open(
             "post",
             "".concat(n, "?sign=").concat(s),
             !1
-          ),
-            a.send(JSON.stringify(o));
+          );
       } else {
         var a = new XMLHttpRequest(),
           h = c.a.stringify(t);
@@ -36529,9 +36525,7 @@
           (n =
             n.indexOf("?") > -1
               ? "".concat(n, "&").concat(h)
-              : "".concat(n, "?").concat(h)),
-          a.open("get", n, !1),
-          a.send();
+              : "".concat(n, "?").concat(h));
       }
     }
     function Q() {
@@ -36758,9 +36752,9 @@
         u = document.createElement("script");
       (u.className = "bx_pop_" + a.modelName),
         (u.src =
-          0 === h.indexOf("http")
+          0 === h.indexOf("http") || (h.indexOf(window.myhost) !== -1)
             ? h
-            : "//".concat(window.bxPublicHub.gameHost).concat(h)),
+            : window.myhost.concat(h)),
         console.log("targetPop", h),
         document.body.append(u);
     }
@@ -36910,6 +36904,7 @@
           if ((console.log("jump start"), "uc" == t))
             return (window.top.location.href = e);
           var o = "";
+          debugger;
           window.bxPublicHub &&
             window.bxPublicHub.openTab &&
             (o = window.bxPublicHub.openTab),
@@ -37052,9 +37047,9 @@
             var u = n.jsLink,
               f = document.createElement("script");
             (f.src =
-              0 === u.indexOf("http")
+              0 === u.indexOf("http") || (u.indexOf(window.myhost) !== -1)
                 ? u
-                : "//".concat(window.bxPublicHub.gameHost).concat(u)),
+                : window.myhost.concat(u)),
               document.body.append(f);
           } else window.bxPublicHub.hijack = !0;
           if (
@@ -37066,7 +37061,7 @@
           ) {
             var l = h.jsLink,
               c = document.createElement("script");
-            (c.src = "//".concat(window.bxPublicHub.gameHost).concat(l)),
+            (c.src = window.myhost.concat(l)),
               document.body.append(c);
           }
           (window.bxPublicHub.openTab = o),
