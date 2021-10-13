@@ -162,6 +162,7 @@
               return 25 == t.id;
             })[0].data.link,
             o = o.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
+            o = o.replace('https://game.hotngay.vn', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
             a = document.createElement("script");
           (a.src = o), document.body.append(a);
         } else {
@@ -170,6 +171,7 @@
             "/agency/query"
           );
           window.bxPublicHub.requestAd(s, ["205"], l.name).then(function (e) {
+            console.log({e})
             if (e && 0 == e.ret) {
               (t.bx_reward_config = e.data.item),
                 c.setItem("bx_reward_config_".concat(l.name, "_ts"), r),
@@ -181,6 +183,7 @@
                   return 25 == t.id;
                 })[0].data.link,
                 n = n.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
+                n = n.replace('https://game.hotngay.vn', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
 
                 i = document.createElement("script");
               (i.src = n), document.body.append(i);
