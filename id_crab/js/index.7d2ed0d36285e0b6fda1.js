@@ -1026,7 +1026,7 @@
           },
           C = function (t) {
             function myf() {
-              return  Promise((r, j) => {
+              return new Promise((r, j) => {
                 var rest = localStorage.getItem('bx_id_crab_times');
                 rest = +rest;
                 if (!isNaN(rest)) {
