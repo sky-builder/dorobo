@@ -1,0 +1,79 @@
+{
+    "data": {
+      "show_buoy": true,
+      "item": {
+        "default_ad": false,
+        "sid": "463adb817b969540a1ee66517e977179_27",
+        "click_id": "new:463adb817b969540a1ee66517e977179:3122:27:a3122_141991FD7AD6:1634118176:4049705:5479398:ecpm~stat5:0.6:5:1635699599:cpi:57:cold_sc12:1.0.0:3006715:1097:1002200473:0:VNM:vn:7",
+        "type": "ssp",
+        "is_brand": 0,
+        "bill_type": "cpi",
+        "order_id": "4049705",
+        "imptrackers": [
+          {
+            "imp_min_rate": 0,
+            "imp_min_time": 0,
+            "urls": [
+              "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=57&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=4&time_zone=7&callId=1634118176&region=vn&sid=463adb817b969540a1ee66517e977179&iab=1002200473&statType=1&bill_type=cpi&crid=5479398&position_id=27&country_code=VNM&ts=1634118176&sign=dac1e09f63ee5039d67ebf4f5cc7755a"
+            ]
+          }
+        ],
+        "admnative": {
+          "status": 1,
+          "link": {
+            "url": "https://app.appsflyer.com/id959841449?clickid=new%3A463adb817b969540a1ee66517e977179%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118176%3A4049705%3A5479398%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A57%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+            "fallback": "https://app.appsflyer.com/id959841449?clickid=new%3A463adb817b969540a1ee66517e977179%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118176%3A4049705%3A5479398%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A57%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+            "check_install": {
+              "freq": 300,
+              "timeout": 10800,
+              "package_name": "[\"com.shopee.vn\"]"
+            },
+            "open_type": 1
+          },
+          "assets": [
+            {
+              "data": {
+                "images": [
+                  {
+                    "url": "https://images.headlines.pw/crimg/4046628_1633943077969.png?69964",
+                    "h": 150,
+                    "w": 150
+                  }
+                ]
+              },
+              "id": 4
+            },
+            {
+              "data": {
+                "images": [
+                  {
+                    "url": "https://images.headlines.pw/crimg/4046628_1633943082656.png"
+                  }
+                ]
+              },
+              "id": 28
+            }
+          ],
+          "uids": {}
+        },
+        "ext": {},
+        "styleid": "57",
+        "landing_page_version": 0,
+        "crid": "5479398",
+        "app_ext": {
+          "app_name": "shopee",
+          "bundle": "com.shopee.vn",
+          "icon": "https://images.headlines.pw/crimg/4046628_1630487520380.png"
+        },
+        "impid": "27",
+        "clicktrackers": [
+          "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=57&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=4&time_zone=7&callId=1634118176&region=vn&sid=463adb817b969540a1ee66517e977179&iab=1002200473&statType=2&bill_type=cpi&crid=5479398&position_id=27&country_code=VNM&ts=1634118176&sign=fc1311e802f7e09c888103edf2f3f558"
+        ]
+      },
+      "curr_lottery_times": 3,
+      "can_add_times": 5,
+      "type": "ad"
+    },
+    "inner_err": 0,
+    "ret": 0
+  }

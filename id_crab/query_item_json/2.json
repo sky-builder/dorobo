@@ -1,0 +1,75 @@
+{
+  "data": {
+    "show_buoy": true,
+    "item": {
+      "default_ad": false,
+      "landing_page_version": 0,
+      "sid": "f8ccb0de25461beac6247f7106aa461d_28",
+      "click_id": "new:f8ccb0de25461beac6247f7106aa461d:3122:28:a3122_141991FD7AD6:1634118188:4049705:5479394:ecpm~stat5:0.6:5:1635699599:cpi:3:cold_sc12:1.0.0:3006715:1097:1002200473:0:VNM:vn:7",
+      "impid": "28",
+      "is_brand": 0,
+      "bill_type": "cpi",
+      "imptrackers": [
+        {
+          "imp_min_rate": 0,
+          "imp_min_time": 0,
+          "urls": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118188&statType=1&campaign=3006715&source=ssp&crid=5479394&time_zone=7&region=vn&country_code=VNM&lottery_times=5&sid=f8ccb0de25461beac6247f7106aa461d&end_time=1635699599&style=3&order_id=4049705&ver=1.0.0&ts=1634118188&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ssp_method=ecpm~stat5&sign=7bb31a8bf504ef8f1842de0af9146a54"
+          ]
+        }
+      ],
+      "order_id": "4049705",
+      "ext": {},
+      "styleid": "3",
+      "admnative": {
+        "status": 1,
+        "link": {
+          "url": "https://app.appsflyer.com/id959841449?clickid=new%3Af8ccb0de25461beac6247f7106aa461d%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118188%3A4049705%3A5479394%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_sub1=vnnn&c=octfreemoney&idfa=&af_siteid=v101021&pid=sharp_int",
+          "fallback": "https://app.appsflyer.com/id959841449?clickid=new%3Af8ccb0de25461beac6247f7106aa461d%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118188%3A4049705%3A5479394%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_sub1=vnnn&c=octfreemoney&idfa=&af_siteid=v101021&pid=sharp_int",
+          "check_install": {
+            "freq": 300,
+            "timeout": 10800,
+            "package_name": "[\"com.shopee.vn\"]"
+          },
+          "open_type": 1
+        },
+        "assets": [
+          {
+            "data": {
+              "text": "Chúc mừng bạn đã trúng!"
+            },
+            "id": 1
+          },
+          {
+            "data": {
+              "images": [
+                {
+                  "url": "https://images.headlines.pw/crimg/4046628_1633749359740.jpg?88593",
+                  "h": 675,
+                  "w": 1200
+                }
+              ]
+            },
+            "id": 4
+          }
+        ],
+        "uids": {}
+      },
+      "crid": "5479394",
+      "clicktrackers": [
+        "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118188&statType=2&campaign=3006715&source=ssp&crid=5479394&time_zone=7&region=vn&country_code=VNM&lottery_times=5&sid=f8ccb0de25461beac6247f7106aa461d&end_time=1635699599&style=3&order_id=4049705&ver=1.0.0&ts=1634118188&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ssp_method=ecpm~stat5&sign=9415a7e1f49dba0b0a7c47981484fe58"
+      ],
+      "type": "ssp",
+      "app_ext": {
+        "app_name": "shopee",
+        "bundle": "com.shopee.vn",
+        "icon": "https://images.headlines.pw/crimg/4046628_1630487520380.png"
+      }
+    },
+    "curr_lottery_times": 2,
+    "can_add_times": 5,
+    "type": "ad"
+  },
+  "inner_err": 0,
+  "ret": 0
+}

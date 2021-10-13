@@ -1,0 +1,79 @@
+{
+  "data": {
+    "show_buoy": false,
+    "item": {
+      "sid": "3ab206427649194d26357ec8a4b9898e_25",
+      "admnative": {
+        "status": 1,
+        "link": {
+          "url": "https://asdx.5430211.com/",
+          "fallback": "",
+          "open_type": 0
+        },
+        "assets": [
+          {
+            "data": {
+              "text": "Bỏ túi ngay 1tr5 mỗi ngày"
+            },
+            "id": 1
+          },
+          {
+            "data": {
+              "color": "#999999",
+              "text": "ad",
+              "stroke": "#999999"
+            },
+            "id": 2
+          },
+          {
+            "data": {
+              "color": "#999999",
+              "text": "Xem chi tiết",
+              "stroke": "#999999"
+            },
+            "id": 3
+          },
+          {
+            "data": {
+              "images": [
+                {
+                  "url": "https://images.headlines.pw/crimg/4043009_1626408189107.jpg?180262",
+                  "h": 675,
+                  "w": 1200
+                }
+              ]
+            },
+            "id": 4
+          }
+        ],
+        "uids": {}
+      },
+      "order_id": "4043009",
+      "impid": "25",
+      "is_brand": 0,
+      "default_ad": false,
+      "imptrackers": [
+        {
+          "imp_min_rate": 0,
+          "imp_min_time": 0,
+          "urls": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118099&statType=1&campaign=3007870&source=ssp&crid=5379678&time_zone=7&region=vn&country_code=VNM&lottery_times=0&sid=3ab206427649194d26357ec8a4b9898e&end_time=1634403599&style=3&order_id=4043009&ver=1.0.0&ts=1634118099&iab=100710059900596&bill_type=cpc&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=25&price=gSqy0MdNMKffVjpIX%2Bv9%2Fg%3D%3D&ssp_method=ecpm~stat5&sign=bbc1db1d01ce7f2effcb2c31700723d0"
+          ]
+        }
+      ],
+      "crid": "5379678",
+      "ext": {},
+      "styleid": "3",
+      "landing_page_version": 0,
+      "clicktrackers": [
+        "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118099&statType=2&campaign=3007870&source=ssp&crid=5379678&time_zone=7&region=vn&country_code=VNM&lottery_times=0&sid=3ab206427649194d26357ec8a4b9898e&end_time=1634403599&style=3&order_id=4043009&ver=1.0.0&ts=1634118099&iab=100710059900596&bill_type=cpc&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=25&price=gSqy0MdNMKffVjpIX%2Bv9%2Fg%3D%3D&ssp_method=ecpm~stat5&sign=cb7f309494b00d91628d4c6edd55d97a"
+      ],
+      "type": "ssp"
+    },
+    "curr_lottery_times": 7,
+    "can_add_times": 5,
+    "type": "ad"
+  },
+  "inner_err": 0,
+  "ret": 0
+}

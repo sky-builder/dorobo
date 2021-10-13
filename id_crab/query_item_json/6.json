@@ -1,0 +1,79 @@
+{
+    "data": {
+      "show_buoy": false,
+      "item": {
+        "sid": "c6cb3ed2e73de7a0dae4b464f9aa058a_25",
+        "crid": "5428146",
+        "type": "ssp",
+        "is_brand": 0,
+        "default_ad": false,
+        "order_id": "4043793",
+        "imptrackers": [
+          {
+            "imp_min_rate": 0,
+            "imp_min_time": 0,
+            "urls": [
+              "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3007856&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4043793&price=ABCSiRZGmVb9BzvHVdFnzQ%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=1&time_zone=7&callId=1634118125&region=vn&sid=c6cb3ed2e73de7a0dae4b464f9aa058a&iab=100710059900596&statType=1&bill_type=cpc&crid=5428146&position_id=25&country_code=VNM&ts=1634118125&sign=913f4490540faafe131b5ae738bc1daa"
+            ]
+          }
+        ],
+        "admnative": {
+          "status": 1,
+          "link": {
+            "url": "http://lkaj.4561522.com/",
+            "fallback": "",
+            "open_type": 0
+          },
+          "assets": [
+            {
+              "data": {
+                "text": "Chúc mừng bạn đã trúng!"
+              },
+              "id": 1
+            },
+            {
+              "data": {
+                "color": "#999999",
+                "text": "ad",
+                "stroke": "#999999"
+              },
+              "id": 2
+            },
+            {
+              "data": {
+                "color": "#999999",
+                "text": "Xem chi tiết",
+                "stroke": "#999999"
+              },
+              "id": 3
+            },
+            {
+              "data": {
+                "images": [
+                  {
+                    "url": "https://images.headlines.pw/crimg/4043793_1630122260437.png?227249",
+                    "h": 675,
+                    "w": 1200
+                  }
+                ]
+              },
+              "id": 4
+            }
+          ],
+          "uids": {}
+        },
+        "ext": {},
+        "styleid": "3",
+        "landing_page_version": 0,
+        "clicktrackers": [
+          "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3007856&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4043793&price=ABCSiRZGmVb9BzvHVdFnzQ%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=1&time_zone=7&callId=1634118125&region=vn&sid=c6cb3ed2e73de7a0dae4b464f9aa058a&iab=100710059900596&statType=2&bill_type=cpc&crid=5428146&position_id=25&country_code=VNM&ts=1634118125&sign=69ea43817e5e9b8ed8f2ba1f507fa14b"
+        ],
+        "impid": "25"
+      },
+      "curr_lottery_times": 6,
+      "can_add_times": 5,
+      "type": "ad"
+    },
+    "inner_err": 0,
+    "ret": 0
+  }

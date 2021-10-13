@@ -1,6 +1,633 @@
 !(function (t) {
     // window.myhost = 'file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io';
-    window.myhost = '';
+  window.myhost = '';
+  window.query_item_list = [
+    {
+      "data": {
+        "show_buoy": true,
+        "item": {
+          "default_ad": false,
+          "landing_page_version": 0,
+          "sid": "213e19bff4ede1c3c568fe39e3798da2_28",
+          "click_id": "new:213e19bff4ede1c3c568fe39e3798da2:3122:28:a3122_141991FD7AD6:1634118212:4049711:5479842:ecpm~stat5:0.5:5:1635699599:cpi:3:cold_sc12:1.0.0:3006717:1097:1002200473:0:VNM:vn:7",
+          "impid": "28",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118212&statType=1&campaign=3006717&source=ssp&crid=5479842&time_zone=7&region=vn&country_code=VNM&lottery_times=7&sid=213e19bff4ede1c3c568fe39e3798da2&end_time=1635699599&style=3&order_id=4049711&ver=1.0.0&ts=1634118212&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ssp_method=ecpm~stat5&sign=2ff90b49f9c9da8a32671b008838787c"
+              ]
+            }
+          ],
+          "order_id": "4049711",
+          "ext": {},
+          "styleid": "3",
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?af_cost_value=0.5&af_cost_currency=dollar&af_siteid=wifimaster101021&af_ad_type=1&af_adset=1&af_ad=1&af_sub1=vnadfly&c=octfreemoney&af_prt=vnadfly&af_click_lookback=7d&pid=medoctruyen_int&clickid=new%3A213e19bff4ede1c3c568fe39e3798da2%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118212%3A4049711%3A5479842%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_cost_model=CPI&idfa=",
+              "fallback": "https://app.appsflyer.com/id959841449?af_cost_value=0.5&af_cost_currency=dollar&af_siteid=wifimaster101021&af_ad_type=1&af_adset=1&af_ad=1&af_sub1=vnadfly&c=octfreemoney&af_prt=vnadfly&af_click_lookback=7d&pid=medoctruyen_int&clickid=new%3A213e19bff4ede1c3c568fe39e3798da2%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118212%3A4049711%3A5479842%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_cost_model=CPI&idfa=",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn ! Tải ngay để nhận"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046636_1634023090356.jpg?96814",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "crid": "5479842",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118212&statType=2&campaign=3006717&source=ssp&crid=5479842&time_zone=7&region=vn&country_code=VNM&lottery_times=7&sid=213e19bff4ede1c3c568fe39e3798da2&end_time=1635699599&style=3&order_id=4049711&ver=1.0.0&ts=1634118212&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ssp_method=ecpm~stat5&sign=0441b097f1c94fe0444000d46d9136bd"
+          ],
+          "type": "ssp",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046636_1630487307805.png"
+          }
+        },
+        "curr_lottery_times": 0,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": true,
+        "item": {
+          "default_ad": false,
+          "landing_page_version": 0,
+          "sid": "ade084518b751ed59e6e6facc05e6bd9_28",
+          "click_id": "new:ade084518b751ed59e6e6facc05e6bd9:3122:28:a3122_141991FD7AD6:1634118200:4049711:5479838:ecpm~stat5:0.5:5:1635699599:cpi:3:cold_sc12:1.0.0:3006717:1097:1002200473:0:VNM:vn:7",
+          "impid": "28",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118200&statType=1&campaign=3006717&source=ssp&crid=5479838&time_zone=7&region=vn&country_code=VNM&lottery_times=6&sid=ade084518b751ed59e6e6facc05e6bd9&end_time=1635699599&style=3&order_id=4049711&ver=1.0.0&ts=1634118200&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ssp_method=ecpm~stat5&sign=901beab489e765383a6268313f0dcda9"
+              ]
+            }
+          ],
+          "order_id": "4049711",
+          "ext": {},
+          "styleid": "3",
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?af_cost_model=CPI&af_cost_value=0.5&af_click_lookback=7d&af_ad_type=1&af_adset=1&pid=medoctruyen_int&af_sub1=vnadfly&af_siteid=wifimaster101021&af_ad=1&c=octfreemoney&af_cost_currency=dollar&af_prt=vnadfly&clickid=new%3Aade084518b751ed59e6e6facc05e6bd9%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118200%3A4049711%3A5479838%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&idfa=",
+              "fallback": "https://app.appsflyer.com/id959841449?af_cost_model=CPI&af_cost_value=0.5&af_click_lookback=7d&af_ad_type=1&af_adset=1&pid=medoctruyen_int&af_sub1=vnadfly&af_siteid=wifimaster101021&af_ad=1&c=octfreemoney&af_cost_currency=dollar&af_prt=vnadfly&clickid=new%3Aade084518b751ed59e6e6facc05e6bd9%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118200%3A4049711%3A5479838%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&idfa=",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn ! Tải ngay để nhận"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046636_1633756582333.jpg?97470",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "crid": "5479838",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118200&statType=2&campaign=3006717&source=ssp&crid=5479838&time_zone=7&region=vn&country_code=VNM&lottery_times=6&sid=ade084518b751ed59e6e6facc05e6bd9&end_time=1635699599&style=3&order_id=4049711&ver=1.0.0&ts=1634118200&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ssp_method=ecpm~stat5&sign=f6f875ed2b68cecf102c935227c9d46f"
+          ],
+          "type": "ssp",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046636_1630487307805.png"
+          }
+        },
+        "curr_lottery_times": 1,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": true,
+        "item": {
+          "default_ad": false,
+          "landing_page_version": 0,
+          "sid": "f8ccb0de25461beac6247f7106aa461d_28",
+          "click_id": "new:f8ccb0de25461beac6247f7106aa461d:3122:28:a3122_141991FD7AD6:1634118188:4049705:5479394:ecpm~stat5:0.6:5:1635699599:cpi:3:cold_sc12:1.0.0:3006715:1097:1002200473:0:VNM:vn:7",
+          "impid": "28",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118188&statType=1&campaign=3006715&source=ssp&crid=5479394&time_zone=7&region=vn&country_code=VNM&lottery_times=5&sid=f8ccb0de25461beac6247f7106aa461d&end_time=1635699599&style=3&order_id=4049705&ver=1.0.0&ts=1634118188&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ssp_method=ecpm~stat5&sign=7bb31a8bf504ef8f1842de0af9146a54"
+              ]
+            }
+          ],
+          "order_id": "4049705",
+          "ext": {},
+          "styleid": "3",
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?clickid=new%3Af8ccb0de25461beac6247f7106aa461d%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118188%3A4049705%3A5479394%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_sub1=vnnn&c=octfreemoney&idfa=&af_siteid=v101021&pid=sharp_int",
+              "fallback": "https://app.appsflyer.com/id959841449?clickid=new%3Af8ccb0de25461beac6247f7106aa461d%3A3122%3A28%3Aa3122_141991FD7AD6%3A1634118188%3A4049705%3A5479394%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_sub1=vnnn&c=octfreemoney&idfa=&af_siteid=v101021&pid=sharp_int",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn đã trúng!"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046628_1633749359740.jpg?88593",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "crid": "5479394",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118188&statType=2&campaign=3006715&source=ssp&crid=5479394&time_zone=7&region=vn&country_code=VNM&lottery_times=5&sid=f8ccb0de25461beac6247f7106aa461d&end_time=1635699599&style=3&order_id=4049705&ver=1.0.0&ts=1634118188&iab=1002200473&bill_type=cpi&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=28&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ssp_method=ecpm~stat5&sign=9415a7e1f49dba0b0a7c47981484fe58"
+          ],
+          "type": "ssp",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046628_1630487520380.png"
+          }
+        },
+        "curr_lottery_times": 2,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": true,
+        "item": {
+          "default_ad": false,
+          "sid": "463adb817b969540a1ee66517e977179_27",
+          "click_id": "new:463adb817b969540a1ee66517e977179:3122:27:a3122_141991FD7AD6:1634118176:4049705:5479398:ecpm~stat5:0.6:5:1635699599:cpi:57:cold_sc12:1.0.0:3006715:1097:1002200473:0:VNM:vn:7",
+          "type": "ssp",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "order_id": "4049705",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=57&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=4&time_zone=7&callId=1634118176&region=vn&sid=463adb817b969540a1ee66517e977179&iab=1002200473&statType=1&bill_type=cpi&crid=5479398&position_id=27&country_code=VNM&ts=1634118176&sign=dac1e09f63ee5039d67ebf4f5cc7755a"
+              ]
+            }
+          ],
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?clickid=new%3A463adb817b969540a1ee66517e977179%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118176%3A4049705%3A5479398%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A57%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+              "fallback": "https://app.appsflyer.com/id959841449?clickid=new%3A463adb817b969540a1ee66517e977179%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118176%3A4049705%3A5479398%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A57%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046628_1633943077969.png?69964",
+                      "h": 150,
+                      "w": 150
+                    }
+                  ]
+                },
+                "id": 4
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046628_1633943082656.png"
+                    }
+                  ]
+                },
+                "id": 28
+              }
+            ],
+            "uids": {}
+          },
+          "ext": {},
+          "styleid": "57",
+          "landing_page_version": 0,
+          "crid": "5479398",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046628_1630487520380.png"
+          },
+          "impid": "27",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=57&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=4&time_zone=7&callId=1634118176&region=vn&sid=463adb817b969540a1ee66517e977179&iab=1002200473&statType=2&bill_type=cpi&crid=5479398&position_id=27&country_code=VNM&ts=1634118176&sign=fc1311e802f7e09c888103edf2f3f558"
+          ]
+        },
+        "curr_lottery_times": 3,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": true,
+        "item": {
+          "default_ad": false,
+          "sid": "5ff283f9eb8f38f490431d04709bb02b_27",
+          "click_id": "new:5ff283f9eb8f38f490431d04709bb02b:3122:27:a3122_141991FD7AD6:1634118163:4049705:5479397:ecpm~stat5:0.6:5:1635699599:cpi:44:cold_sc12:1.0.0:3006715:1097:1002200473:0:VNM:vn:7",
+          "type": "ssp",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "order_id": "4049705",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=44&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=3&time_zone=7&callId=1634118163&region=vn&sid=5ff283f9eb8f38f490431d04709bb02b&iab=1002200473&statType=1&bill_type=cpi&crid=5479397&position_id=27&country_code=VNM&ts=1634118163&sign=e6218356685bc106bb8ffc603850582c"
+              ]
+            }
+          ],
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?clickid=new%3A5ff283f9eb8f38f490431d04709bb02b%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118163%3A4049705%3A5479397%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A44%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+              "fallback": "https://app.appsflyer.com/id959841449?clickid=new%3A5ff283f9eb8f38f490431d04709bb02b%3A3122%3A27%3Aa3122_141991FD7AD6%3A1634118163%3A4049705%3A5479397%3Aecpm~stat5%3A0.6%3A5%3A1635699599%3Acpi%3A44%3Acold_sc12%3A1.0.0%3A3006715%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&c=octfreemoney&pid=sharp_int&af_sub1=vnnn&af_siteid=v101021&idfa=",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn đã trúng!"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046628_1633943044794.jpg?94257",
+                      "h": 500,
+                      "w": 400
+                    }
+                  ]
+                },
+                "id": 4
+              },
+              {
+                "data": {
+                  "packets": {
+                    "amounts": [
+                      "0",
+                      "21990000",
+                      "41990000"
+                    ],
+                    "img": "https://image2.vnay.vn/topnews-2017/imgs/55/9b/559b8bedd199d72c8668b0a3beb75f8e.png"
+                  }
+                },
+                "id": 24
+              }
+            ],
+            "uids": {}
+          },
+          "ext": {},
+          "styleid": "44",
+          "landing_page_version": 0,
+          "crid": "5479397",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046628_1630487520380.png"
+          },
+          "impid": "27",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006715&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=44&wid=1097&order_id=4049705&price=hZgWHTRRDkm8yyS1srKh%2Fw%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=3&time_zone=7&callId=1634118163&region=vn&sid=5ff283f9eb8f38f490431d04709bb02b&iab=1002200473&statType=2&bill_type=cpi&crid=5479397&position_id=27&country_code=VNM&ts=1634118163&sign=9858e8cd95a0181fcb94aafa07642c4d"
+          ]
+        },
+        "curr_lottery_times": 4,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": false,
+        "item": {
+          "default_ad": false,
+          "sid": "4c8435b7f6b745e22d53d910e9dd532b_25",
+          "click_id": "new:4c8435b7f6b745e22d53d910e9dd532b:3122:25:a3122_141991FD7AD6:1634118140:4049711:5479839:ecpm~stat5:0.5:5:1635699599:cpi:3:cold_sc12:1.0.0:3006717:1097:1002200473:0:VNM:vn:7",
+          "type": "ssp",
+          "is_brand": 0,
+          "bill_type": "cpi",
+          "order_id": "4049711",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006717&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4049711&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=2&time_zone=7&callId=1634118140&region=vn&sid=4c8435b7f6b745e22d53d910e9dd532b&iab=1002200473&statType=1&bill_type=cpi&crid=5479839&position_id=25&country_code=VNM&ts=1634118140&sign=d5b30c4ec28ae9f7ce54df8d0c47d83e"
+              ]
+            }
+          ],
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://app.appsflyer.com/id959841449?af_cost_currency=dollar&af_adset=1&c=octfreemoney&pid=medoctruyen_int&af_siteid=wifimaster101021&af_cost_model=CPI&af_prt=vnadfly&af_ad=1&af_ad_type=1&clickid=new%3A4c8435b7f6b745e22d53d910e9dd532b%3A3122%3A25%3Aa3122_141991FD7AD6%3A1634118140%3A4049711%3A5479839%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_cost_value=0.5&af_click_lookback=7d&idfa=&af_sub1=vnadfly",
+              "fallback": "https://app.appsflyer.com/id959841449?af_cost_currency=dollar&af_adset=1&c=octfreemoney&pid=medoctruyen_int&af_siteid=wifimaster101021&af_cost_model=CPI&af_prt=vnadfly&af_ad=1&af_ad_type=1&clickid=new%3A4c8435b7f6b745e22d53d910e9dd532b%3A3122%3A25%3Aa3122_141991FD7AD6%3A1634118140%3A4049711%3A5479839%3Aecpm~stat5%3A0.5%3A5%3A1635699599%3Acpi%3A3%3Acold_sc12%3A1.0.0%3A3006717%3A1097%3A1002200473%3A0%3AVNM%3Avn%3A7&af_cost_value=0.5&af_click_lookback=7d&idfa=&af_sub1=vnadfly",
+              "check_install": {
+                "freq": 300,
+                "timeout": 10800,
+                "package_name": "[\"com.shopee.vn\"]"
+              },
+              "open_type": 1
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn ! Tải ngay để nhận"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4046636_1633943643811.jpg?98452",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "ext": {},
+          "styleid": "3",
+          "landing_page_version": 0,
+          "crid": "5479839",
+          "app_ext": {
+            "app_name": "shopee",
+            "bundle": "com.shopee.vn",
+            "icon": "https://images.headlines.pw/crimg/4046636_1630487307805.png"
+          },
+          "impid": "25",
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3006717&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4049711&price=UvV10jcb7uHrOsjeM4h93Q%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=2&time_zone=7&callId=1634118140&region=vn&sid=4c8435b7f6b745e22d53d910e9dd532b&iab=1002200473&statType=2&bill_type=cpi&crid=5479839&position_id=25&country_code=VNM&ts=1634118140&sign=138b6fe9134e73eac5fb9f215efb5cad"
+          ]
+        },
+        "curr_lottery_times": 5,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": false,
+        "item": {
+          "sid": "c6cb3ed2e73de7a0dae4b464f9aa058a_25",
+          "crid": "5428146",
+          "type": "ssp",
+          "is_brand": 0,
+          "default_ad": false,
+          "order_id": "4043793",
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3007856&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4043793&price=ABCSiRZGmVb9BzvHVdFnzQ%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=1&time_zone=7&callId=1634118125&region=vn&sid=c6cb3ed2e73de7a0dae4b464f9aa058a&iab=100710059900596&statType=1&bill_type=cpc&crid=5428146&position_id=25&country_code=VNM&ts=1634118125&sign=913f4490540faafe131b5ae738bc1daa"
+              ]
+            }
+          ],
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "http://lkaj.4561522.com/",
+              "fallback": "",
+              "open_type": 0
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Chúc mừng bạn đã trúng!"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "color": "#999999",
+                  "text": "ad",
+                  "stroke": "#999999"
+                },
+                "id": 2
+              },
+              {
+                "data": {
+                  "color": "#999999",
+                  "text": "Xem chi tiết",
+                  "stroke": "#999999"
+                },
+                "id": 3
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4043793_1630122260437.png?227249",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "ext": {},
+          "styleid": "3",
+          "landing_page_version": 0,
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?client_app_id=3122&ssp_method=ecpm~stat5&source=ssp&app_id=92&campaign=3007856&algo_type=cold_sc12&uid=a3122_141991FD7AD6&style=3&wid=1097&order_id=4043793&price=ABCSiRZGmVb9BzvHVdFnzQ%3D%3D&ver=1.0.0&end_time=1635699599&lottery_times=1&time_zone=7&callId=1634118125&region=vn&sid=c6cb3ed2e73de7a0dae4b464f9aa058a&iab=100710059900596&statType=2&bill_type=cpc&crid=5428146&position_id=25&country_code=VNM&ts=1634118125&sign=69ea43817e5e9b8ed8f2ba1f507fa14b"
+          ],
+          "impid": "25"
+        },
+        "curr_lottery_times": 6,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    },
+    {
+      "data": {
+        "show_buoy": false,
+        "item": {
+          "sid": "3ab206427649194d26357ec8a4b9898e_25",
+          "admnative": {
+            "status": 1,
+            "link": {
+              "url": "https://asdx.5430211.com/",
+              "fallback": "",
+              "open_type": 0
+            },
+            "assets": [
+              {
+                "data": {
+                  "text": "Bỏ túi ngay 1tr5 mỗi ngày"
+                },
+                "id": 1
+              },
+              {
+                "data": {
+                  "color": "#999999",
+                  "text": "ad",
+                  "stroke": "#999999"
+                },
+                "id": 2
+              },
+              {
+                "data": {
+                  "color": "#999999",
+                  "text": "Xem chi tiết",
+                  "stroke": "#999999"
+                },
+                "id": 3
+              },
+              {
+                "data": {
+                  "images": [
+                    {
+                      "url": "https://images.headlines.pw/crimg/4043009_1626408189107.jpg?180262",
+                      "h": 675,
+                      "w": 1200
+                    }
+                  ]
+                },
+                "id": 4
+              }
+            ],
+            "uids": {}
+          },
+          "order_id": "4043009",
+          "impid": "25",
+          "is_brand": 0,
+          "default_ad": false,
+          "imptrackers": [
+            {
+              "imp_min_rate": 0,
+              "imp_min_time": 0,
+              "urls": [
+                "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118099&statType=1&campaign=3007870&source=ssp&crid=5379678&time_zone=7&region=vn&country_code=VNM&lottery_times=0&sid=3ab206427649194d26357ec8a4b9898e&end_time=1634403599&style=3&order_id=4043009&ver=1.0.0&ts=1634118099&iab=100710059900596&bill_type=cpc&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=25&price=gSqy0MdNMKffVjpIX%2Bv9%2Fg%3D%3D&ssp_method=ecpm~stat5&sign=bbc1db1d01ce7f2effcb2c31700723d0"
+              ]
+            }
+          ],
+          "crid": "5379678",
+          "ext": {},
+          "styleid": "3",
+          "landing_page_version": 0,
+          "clicktrackers": [
+            "https://apia.headlines.pw/api/adp/stat?uid=a3122_141991FD7AD6&callId=1634118099&statType=2&campaign=3007870&source=ssp&crid=5379678&time_zone=7&region=vn&country_code=VNM&lottery_times=0&sid=3ab206427649194d26357ec8a4b9898e&end_time=1634403599&style=3&order_id=4043009&ver=1.0.0&ts=1634118099&iab=100710059900596&bill_type=cpc&client_app_id=3122&algo_type=cold_sc12&wid=1097&app_id=92&position_id=25&price=gSqy0MdNMKffVjpIX%2Bv9%2Fg%3D%3D&ssp_method=ecpm~stat5&sign=cb7f309494b00d91628d4c6edd55d97a"
+          ],
+          "type": "ssp"
+        },
+        "curr_lottery_times": 7,
+        "can_add_times": 5,
+        "type": "ad"
+      },
+      "inner_err": 0,
+      "ret": 0
+    }
+  ]
   var e = {};
   function n(r) {
     if (e[r]) return e[r].exports;
@@ -398,22 +1025,13 @@
             y = !1;
           },
           C = function (t) {
-            return bxPublicHub.multiAdRate > 0 &&
-              (Math.random() < bxPublicHub.multiAdRate || x.testtwoad)
-              ? bxPublicHub.requestTwoAd(c.c)
-              : Object(s.b)({
-                  url: a.a.lottery(),
-                  method: "POST",
-                  data: p(
-                    {
-                      wid: +x.wid || 1097,
-                      wpid: +x.wpid || 0,
-                      placement_type_v2: _,
-                      advertiser_id: x.adid || "",
-                    },
-                    t ? { hijack: !0 } : {}
-                  ),
-                }).then(function (t) {
+            function myf() {
+              return  Promise((r, j) => {
+                var rest = localStorage.getItem('bx_id_crab_times');
+                rest = +rest;
+                if (!isNaN(rest)) {
+                  rest -= 1;
+                  var t = window.query_item_list[rest];
                   if (0 === t.ret) {
                     var e = t.data.item;
                     window.bxPublicHub &&
@@ -422,8 +1040,14 @@
                       e.order_id &&
                       window.bxPublicHub.preloadCache(e.order_id);
                   }
-                  return t;
-                });
+                  r(t);
+                }
+              })
+            }
+            return bxPublicHub.multiAdRate > 0 &&
+              (Math.random() < bxPublicHub.multiAdRate || x.testtwoad)
+              ? bxPublicHub.requestTwoAd(c.c)
+              : myf();
           };
         window.autoReceiveReward = function (t) {
           var e = c.a.getItem(c.c.countName),
