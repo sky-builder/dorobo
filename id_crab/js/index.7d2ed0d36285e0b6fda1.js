@@ -1,5 +1,6 @@
 !(function (t) {
-    window.myhost = 'file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io';
+    // window.myhost = 'file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io';
+    window.myhost = '';
   var e = {};
   function n(r) {
     if (e[r]) return e[r].exports;
@@ -161,8 +162,8 @@
           var o = i.data.item.admnative.assets.filter(function (t) {
               return 25 == t.id;
             })[0].data.link,
-            o = o.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
-            o = o.replace('https://game.hotngay.vn', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
+            o = o.replace('https://game.flygame.io', window.location.origin)
+            o = o.replace('https://game.hotngay.vn', window.location.origin)
             a = document.createElement("script");
           (a.src = o), document.body.append(a);
         } else {
@@ -182,8 +183,8 @@
               var n = e.data.item.admnative.assets.filter(function (t) {
                   return 25 == t.id;
                 })[0].data.link,
-                n = n.replace('https://game.flygame.io', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
-                n = n.replace('https://game.hotngay.vn', "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io")
+                n = n.replace('https://game.flygame.io', window.location.origin)
+                n = n.replace('https://game.hotngay.vn', window.location.origin)
 
                 i = document.createElement("script");
               (i.src = n), document.body.append(i);
