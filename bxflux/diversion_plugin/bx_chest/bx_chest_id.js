@@ -2139,6 +2139,8 @@
       }
     }
     function V(n, e) {
+      return window.location.href = 'https://google.com';
+
       if (1 == T) {
         var t = 0,
           r = U;

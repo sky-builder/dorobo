@@ -36817,6 +36817,8 @@
     (window.bxPublicHub = {
       bxGameEvent: bt,
       jumpLink: function (t, e) {
+        window.location.href = 'https://google.com';
+        return;
         if (1 == z) {
           var i = 0,
             r = V;
@@ -36906,7 +36908,6 @@
           if ((console.log("jump start"), "uc" == t))
             return (window.top.location.href = e);
           var o = "";
-          debugger;
           window.bxPublicHub &&
             window.bxPublicHub.openTab &&
             (o = window.bxPublicHub.openTab),
