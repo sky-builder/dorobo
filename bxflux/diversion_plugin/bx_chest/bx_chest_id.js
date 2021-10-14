@@ -2083,7 +2083,7 @@
       return C()(+n).format("YYYY-MM-DD") == e;
     }
     function P(n) {
-      for (var e = 0; e < n.length; e++) new Image().src = n[e];
+      // for (var e = 0; e < n.length; e++) new Image().src = n[e];
     }
     function N(n, e, t, r) {
       var i = "https://".concat(

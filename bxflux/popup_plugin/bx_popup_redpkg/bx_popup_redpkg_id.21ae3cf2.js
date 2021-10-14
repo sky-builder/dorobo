@@ -1999,7 +1999,7 @@
       b.toLocaleLowerCase().match(/MicroMessenger/i),
       (navigator.browserLanguage || navigator.language).toLowerCase();
     function T(e) {
-      for (var n = 0; n < e.length; n++) new Image().src = e[n];
+      // for (var n = 0; n < e.length; n++) new Image().src = e[n];
     }
     function I(e) {
       if (window.bxPublicHub) {
