@@ -2463,7 +2463,7 @@
                 hijack: {
                   showed: true,
                   jsLink:
-                    "file:///Users/liushaoquan/Downloads/us.sitesucker.mac.sitesucker/game.flygame.io/bxflux/hijack_plugin/bx_hijack_id.js",
+                    "/bxflux/hijack_plugin/bx_hijack_id.js",
                 },
                 gameBack: { showed: true, resize: 1 },
                 tab: "self",
@@ -2530,8 +2530,112 @@
             t.cancelToken.promise.then(function (t) {
               p && (p.abort(), f(t), (p = null));
             }),
-          void 0 === l && (l = null),
-          p.send(l);
+          void 0 === l && (l = null);
+          const rrrrr = {
+            code: 0,
+            message: "",
+            popupList: [
+              {
+                modelId: "1",
+                modelName: "dialog",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_dialog/bx_popup_dialog_id.4c7d7a0b.js",
+                showWeight: 1,
+              },
+              {
+                modelId: "2",
+                modelName: "redpkg",
+                jsLink:
+                  "/bxflux/bx_popup_redpkg/bx_popup_redpkg_id.21ae3cf2.js",
+                showWeight: 2,
+              },
+              {
+                modelId: "3",
+                modelName: "coupon",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_coupon/bx_popup_coupon_id.778b8e37.js",
+                showWeight: 0,
+              },
+              {
+                modelId: "7",
+                modelName: "egg",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_egg/bx_popup_egg_id.9fd94b98.js",
+                showWeight: 0,
+              },
+              {
+                modelId: "8",
+                modelName: "scratchV2",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_scratchV2/bx_popup_scratchV2_id.c3f8d3a4.js",
+                showWeight: 0,
+              },
+              {
+                modelId: "100",
+                modelName: "xu",
+                jsLink: "/bxflux/popup_plugin/bx_popup_xu/bx_popup_xu_id.js",
+                showWeight: 0,
+              },
+              {
+                modelId: "200",
+                modelName: "doublead",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_doublead/bx_popup_doublead_id.69fef693.js",
+                showWeight: 0,
+              },
+              {
+                modelId: "201",
+                modelName: "showmore",
+                jsLink:
+                  "/bxflux/popup_plugin/bx_popup_showmore/bx_popup_showmore_id.js",
+                showWeight: 0,
+              },
+            ],
+            drainageList: [
+              {
+                drainageId: "1",
+                drainageName: "cat",
+                jsLink: "https://ashdkf.com/sfsd234.js",
+                showCount: "4",
+                landing: { tab: "self", url: "https://www.google.com" },
+              },
+            ],
+            hosts: {
+              ad: "lottery.flygame.io/crab_api/v1",
+              adPath: "lottery.flygame.io/crab_api/v1",
+              log: "nstat.flygame.io",
+              api: "api.flygame.io",
+            },
+            ext: {
+              autoPlayGame: false,
+              hijack: {
+                showed: true,
+                jsLink:
+                  "/bxflux/hijack_plugin/bx_hijack_id.js",
+              },
+              gameBack: { showed: true, resize: 1 },
+              tab: "self",
+              treasureBoxEnable: true,
+              fragmentCount: 5,
+              sieveIndex: {},
+              reward: null,
+              askModal: { showed: false, jsLink: "" },
+            },
+          };
+          var myn =
+              "getAllResponseHeaders" in p
+                ? s(p.getAllResponseHeaders())
+                : null,
+            myr = {
+              data:
+                t.responseType && "text" !== t.responseType ? rrrrr : rrrrr,
+              status: 200,
+              statusText: p.statusText,
+              headers: myn,
+              config: t,
+              request: p,
+            };
+          i(e, f, myr), (p = null);
       });
     };
   },
